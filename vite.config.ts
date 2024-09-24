@@ -1,8 +1,10 @@
+// vite.config.ts ou vite.config.js
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/nohan-lebreton.github.io/', // Chemin de base pour le déploiement sur GitHub Pages
   plugins: [
     vue(),
     VitePWA({
