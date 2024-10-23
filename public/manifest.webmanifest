@@ -1,7 +1,7 @@
 {
     "name": "Castoon App",
     "short_name": "Castoon",
-    "description": "Castoon, une application de gestion de challenges!",
+    "description": "Castoon, une application de podcast ludique pour vos enfants!",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
